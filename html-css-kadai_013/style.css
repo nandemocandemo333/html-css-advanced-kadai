@@ -82,7 +82,6 @@ PC用のスタイル
     #menu-sp {
       float: right;
       padding: 0;
-
 } 
 /* スマホ用ナビゲーションの表示切替*/
     /* 初期状態、レイアウトと非表示設定 */
@@ -92,9 +91,10 @@ PC用のスタイル
       left: 0;
       top: 0;
       height: 100%;
-      /* display: none; */
+      display: none; 
       width: 100%;
       z-index: 100;
+    
     }
      /* ×ボタン */
      #close {
